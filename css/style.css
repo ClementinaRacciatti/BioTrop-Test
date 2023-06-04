@@ -61,6 +61,13 @@ a {
     font-size: 16px;
     margin: 0px;
 }
+.textQuienesSomos2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+}
 
 .txtMainDestacado {
     font-family: 'Work Sans', sans-serif;
@@ -357,6 +364,7 @@ a {
 .seccionProductos2{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px 50px;
 }
@@ -416,11 +424,13 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 65px 250px;
-    background-color: #ffffff;}
+    background-color: #ffffff;
+}
 
 .divContacto {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
 .divFormContacto {
@@ -510,10 +520,13 @@ a {
         margin: 10px 0px;
         padding: 0px 10px;
     }
-    .textMVV {
-        text-align: center;
+    .txtBioNews{
+        font-size: 40px;
     }
-    .textMain {
+    .txtProductos{
+        font-size: 35px;
+    }
+    .textMVV {
         text-align: center;
     }
     .txtFrase {
@@ -524,6 +537,9 @@ a {
         text-align: center;
     }
     .textQuienesSomos {
+        text-align: center;
+    }
+    .textQuienesSomos2 {
         text-align: center;
     }
     .divBioNews {
@@ -546,6 +562,22 @@ a {
     .divProductos {
         padding: 15px 25px;
         background-color: #ffffff;
+    }
+    .seccionProductos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px 100px;
+    }
+    .cardProductos{
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+    }
+    .seccionContacto2 {
+        padding: 30px;
     }
     .footer {
         background-color: #113e43;
