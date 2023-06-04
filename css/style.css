@@ -1,0 +1,571 @@
+/*Imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+/*Reset*/
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Texts*/
+
+.textoNav{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+.textMayusNeg{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.textMayusBlanco{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.textItalic{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    line-height: normal;
+}
+
+.textMain{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.txtMainDestacado {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 25px;
+}
+
+.textMainCentrado{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+}
+
+.textQuienesSomos{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.textNumber {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #188c81;
+}
+
+.textNumber2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0px;
+    text-transform: uppercase;
+    color: #bfc215;
+    line-height: 1;
+}
+
+.textNumber3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10px 0px 0px 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1;
+    text-align: center;
+}
+
+.txt-medium {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #188c81;
+    margin: 0px;
+}
+
+.txtFecha {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: #188c81;
+    margin: 15px 20px 0px 20px;
+    text-transform: uppercase;
+}
+
+.txtTitulo {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0px 20px 0px 20px;
+    line-height: 25px;
+}
+
+.txtCard {
+    color: #7d7d7d;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 30px 20px 30px 20px;
+}
+
+.txtBioNews {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+.txtProductos {
+    color: #113e43;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px;
+}
+
+.txtBlancoCentrado {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+    margin: 0px;
+    
+}
+
+.txtBlanco {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    margin: 0px;
+    
+}
+
+.txtFrase {
+    font-family: "Work Sans", Sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    color: #000000;
+}
+
+.textMVV {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+    color: #188c81;
+}
+
+.txtBlancoCentradoPeque{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    
+}
+
+/*Botones*/
+
+.btn-outline {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0);
+    border-right-color: #188c81;
+    border-bottom-color: #188c81;
+    border-left-color: #188c81;
+    line-height: 1;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-color: #188c81;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    color: #188c81;
+    height: 45px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 170px;
+}
+
+/*Sections*/
+
+
+
+.hidden-spacer {
+    height: 90px;
+    background-color: #004852;
+}
+
+.customNav {
+    background-color: #004852;
+}
+
+.ulFlag{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 0px 10px;
+}
+
+.columBody {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin:70px 130px 70px 130px;
+    justify-content: space-between;
+}
+
+.columBody2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin:40px 100px 0px 100px;
+    justify-content: center;
+}
+
+.columBodyInterna {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.columBodyInterna2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px 25px;
+    max-width: 600px;
+}
+
+.columBodyInternaQS1 {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px 25px;
+    align-items: center;
+}
+
+.columBodyInternaQS2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0px 25px;
+    justify-content: center;
+}
+
+.seccionNoticia{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 50px;
+    justify-content: space-around;
+}
+
+.cardNoticia{
+    background-color: #ffffff;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.cardProductos{
+    background-color: #145D5C;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardProductos:hover{
+    background-color: #113E43;
+}
+
+.dProductos {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    width: 240px;
+}
+.seccionProductos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 200px;
+}
+
+.seccionProductos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 50px;
+}
+
+.divImgNoticia {
+    border-radius: 10px;
+}
+
+.divBioNews {
+    background-image: url(../img/fondo01.png) ;
+    width: auto;
+    padding: 80px;
+}
+
+.divProductos {
+    padding: 80px 130px;
+    background-color: #ffffff;
+}
+
+.seccionNumeros {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: #188c81;
+    height: 300px;
+}
+
+.seccionNumerosGrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #188c81;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+.colNumInterna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.seccionContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 85px;
+    background-color: #e0e0e0;
+    justify-content: space-around;
+}
+
+.seccionContacto2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 65px 250px;
+    background-color: #ffffff;}
+
+.divContacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.divFormContacto {
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 7px #00000041);
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #113e43;
+    padding: 100px 200px;
+}
+
+.footerSection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerSection2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+}
+
+.footerSection3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 0px 0px 0px;
+}
+
+.footerCol {
+    margin: 20px 0px 20px 0px;
+}
+
+/*img*/
+
+.imgRedes {
+    height: 25px;
+    margin: 0px 0px 0px 30px;
+}
+
+.imgLogoFooter {
+    height: 60px;
+}
+
+.imgSN {
+    height: 500px;
+}
+
+.imgSNCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgProductos {
+    width: 130px;
+}
+
+/* Responsive */
+
+/* Responsive */
+@media screen and (max-width:480px){
+    .columBody {
+        flex-direction: column;
+        padding: 10px;
+        margin:10px 20px 10px 20px;
+    }
+    .columBody2 {
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;
+    }
+    .columBodyInterna2 {
+        margin: 20px 0px 20px 0px;
+    }
+    .columBodyInternaQS1 {
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+    .columBodyInternaQS2 {
+        margin: 10px 0px;
+        padding: 0px 10px;
+    }
+    .textMVV {
+        text-align: center;
+    }
+    .textMain {
+        text-align: center;
+    }
+    .txtFrase {
+        text-align: center;
+        font-size: 20px;
+    }
+    .textNumber2 {
+        text-align: center;
+    }
+    .textQuienesSomos {
+        text-align: center;
+    }
+    .divBioNews {
+        padding: 15px 10px;
+        margin: 0px;
+    }
+    .seccionNoticia{
+        flex-direction: column;
+        padding: 15px 10px;
+        align-items: center;
+    }
+    .seccionNumeros {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+    }
+    .cardNoticia{
+        margin: 15px 0px;
+    }
+    .divProductos {
+        padding: 15px 25px;
+        background-color: #ffffff;
+    }
+    .footer {
+        background-color: #113e43;
+        padding: 15px 30px;
+    }
+    .footerSection1 {
+        flex-direction: column;
+    }
+    .footerSection2 {
+        justify-content:left;
+    }
+    .footerSection3 {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0px 20px 0px;
+    }
+    .imgRedes {
+        margin: 0px 30px 0px 0px;
+    }
+    .imgSN {
+        height: 400px;
+    }
+ }
