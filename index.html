@@ -15,14 +15,14 @@
     <title>BioTrop</title>
 </head>
 <body>
-    <header>
-        <div id="carouselExample" class="carousel slide">
+    <header class="secctionHeader">
+        <div id="carouselExample" class="carousel slide imgBg">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/slider-01.png" class="d-block w-100" alt="...">
+              <div class="carousel-item active cItem">
+                <img src="./img/slider-01.png" class="d-block w-100 cImg" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="./img/slider-02.png" class="d-block w-100" alt="...">
+              <div class="carousel-item cItem">
+                <img src="./img/slider-02.png" class="d-block w-100 cImg" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -34,33 +34,31 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-    </header>
-    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
-        <div class="container justify-content-between">
-            <a class="navbar-brand" href="#">
-              <img src="./img/logo-biotrop.png" alt="Logo" width="200"  class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link textoNav" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link textoNav" href="./quienes_somos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link textoNav" href="./productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link textoNav" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-                <ul class="ulFlag">
+        <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container justify-content-between">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo-biotrop.png" alt="Logo" width="200"  class="d-inline-block align-text-top">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link textoNav" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textoNav" href="./quienes_somos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textoNav" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textoNav" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <div>
+                    <ul class="ulFlag">
                         <p class="nav-item">
                             <a class="nav-link textoNav" href="https://biotrop.com.br/">
                                 <img src="./img/icon-bandera_br.png" alt="bandera br" width="16"  class="d-inline-block align-text-top">
@@ -77,10 +75,11 @@
                             </a>
                         </p>
                 </ul>
+                  </div>
+              </div>
             </div>
-          </div>
-    </nav>
-    <div class="sticky-top hidden-spacer"> </div>
+        </nav>
+    </header>
     <main>
         <section class="columBody">
             <div class="columBodyInterna">

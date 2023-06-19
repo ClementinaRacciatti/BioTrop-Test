@@ -14,3 +14,13 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+const navEL = document.querySelector ('.navbar')
+
+window.addEventListener ('scroll', () => {
+    if (window.scrollY >= 56) {
+        navEL.classList.add('customNav')
+    } else if (window.scrollY < 56) {
+        navEL.classList.remove('customNav')
+    }
+})
